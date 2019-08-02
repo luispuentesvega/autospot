@@ -17,6 +17,11 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+
+Route::get('/cars', function () {
+    return 'Hello API cars!';
+});
+
 Route::get('/tasks', 'TaskController@index')->name('tasks.all');
 
 Route::post('/tasks', 'TaskController@store')->name('tasks.store');
