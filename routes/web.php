@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/cars', function () {
     return 'Hello cars!';
 });
+
+Route::get('/create', 'UserController@create');

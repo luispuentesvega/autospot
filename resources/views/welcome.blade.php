@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    AutoSpot API
+                    Autospot API
                 </div>
             </div>
         </div>
